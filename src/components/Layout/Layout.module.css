@@ -1,0 +1,11 @@
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+}
+.body {
+  width: 100%;
+  height: fit-content;
+}
+.Children {
+  height: 100%;
+}

@@ -1,0 +1,39 @@
+@import url("https://fonts.cdnfonts.com/css/circe-rounded");
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border: solid 1px #c8c5cd;
+  opacity: 0px;
+}
+.ckeckDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.remember {
+  font-family: Circe Rounded;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  text-align: left;
+  color: #79747f;
+}
+
+.submit {
+  width: 100%;
+  padding: 10px 86px 10px 86px;
+  gap: 8px;
+  border-radius: 30px;
+  opacity: 0px;
+  background: #8d7fc7;
+  border: none;
+  font-family: Circe Rounded;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.5px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 32px;
+}

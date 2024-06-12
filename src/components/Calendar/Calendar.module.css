@@ -1,0 +1,96 @@
+@import url("https://fonts.cdnfonts.com/css/circe-rounded");
+
+.Table {
+  width: 95%;
+  margin: 12px 50px 0 32px;
+  height: 100%;
+}
+.TableHead {
+  width: 100%;
+
+  gap: 0px;
+  border-bottom: solid 1px #c8c5cd;
+  opacity: 0px;
+}
+.TableHead_tr {
+  width: 14%;
+  height: 24px;
+  padding: 0px 6px 0px 6px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+
+  text-align: right;
+  opacity: 0px;
+
+  font-family: Circe Rounded;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20.25px;
+  color: #79747f;
+}
+.tBody {
+  height: 100%;
+}
+.dayBox {
+  width: 14%;
+  height: 88px;
+  padding: 4px 2px 2px 2px;
+
+  border: 1px solid #ececec;
+  opacity: 0px;
+  position: relative;
+  vertical-align: bottom;
+}
+.dayBox p {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+
+  font-family: Circe Rounded;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: right;
+  color: #c8c5cd;
+}
+.tuday {
+  width: 85px;
+  height: 32px;
+
+  gap: 16px;
+  border-radius: 15px;
+
+  opacity: 0px;
+  border: solid 1px #8d7fc7;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.SwiperSEction {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  /* padding: 27px 50px 0 32px; */
+  margin-top: 27px;
+  margin-left: 32px;
+  gap: 32px;
+  align-items: center;
+}
+.SwiperSEction div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.SwiperSEction div h3 {
+  font-family: Circe Rounded;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: #323854;
+}
+.SwiperSEction button {
+  background: none;
+}

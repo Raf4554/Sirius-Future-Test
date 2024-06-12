@@ -1,0 +1,137 @@
+@import url("https://fonts.cdnfonts.com/css/circe-rounded");
+
+.Header {
+  height: 68px;
+
+  border-radius: 18px 0 18px 18px;
+  background: #ffffff;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px 0 50px;
+}
+.IconDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.IconDiv img {
+  width: 45px;
+  height: 45px;
+}
+.Title {
+  font-family: Circe Rounded;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #323854;
+}
+.Span {
+  font-family: Circe Rounded;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #7362bc;
+}
+.userDiv {
+  width: 250px;
+  height: 262px;
+
+  padding: 30px;
+  gap: 12px;
+  border-radius: 12px;
+  border: 1px solid #7362bc;
+  opacity: 0px;
+  position: absolute;
+  z-index: 99;
+  background: #ffffff;
+  right: 50px;
+  top: 68px;
+}
+.userDiv h3 {
+  font-family: Circe Rounded;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: #323854;
+}
+.user {
+  width: 90%;
+  height: 48px;
+  padding: 8px;
+  gap: 8px;
+  border-radius: 12px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 12px;
+}
+.ActiveUser {
+  background: #eeeeff;
+}
+.user div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.user div h4 {
+  font-family: Circe Rounded;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.2px;
+  text-align: left;
+  color: #323854;
+}
+.user div p {
+  font-family: Circe Rounded;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: left;
+  color: #323854;
+}
+.userbtn {
+  width: 100%;
+  height: 40px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0px;
+  background: #ffffff;
+  border: none;
+  margin-top: 12px;
+}
+.userbtn p {
+  font-family: Circe Rounded;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: center;
+  color: #008aff;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  margin-top: 12px;
+  border: 1px;
+  opacity: 0px;
+  background: #eeeeff;
+}
+.Close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.traingle {
+  position: absolute;
+  right: 54px;
+  top: -8px;
+}

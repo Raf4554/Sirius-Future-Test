@@ -1,0 +1,308 @@
+@import url('https://fonts.cdnfonts.com/css/circe-rounded');
+.body{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.InfoSection1{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0 0 32px;
+    gap: 20px;
+}
+.Sale{
+    width: 50%;
+background: #7362BC;
+height: 248px;
+gap: 12px;
+border-radius: 30px;
+opacity: 0px;
+display: flex;
+flex-direction: column;
+/* padding: 56px 0 0 40px; */
+position: relative;
+overflow: hidden;
+}
+.Sale h2{
+    margin: 56px 0 0 40px;
+   width: 60%;
+font-family: Circe Rounded;
+font-size: 32px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color: white;
+}
+.Sale p{
+    width: 60%;
+    font-family: Circe Rounded;
+font-size: 16px;
+font-weight: 300;
+line-height: 20px;
+text-align: left;
+color: white;
+margin-left: 40px;
+}
+.Sale img{
+    position: absolute;
+    right:  0;
+    bottom: 0;
+}
+.unsowedDiv{
+    width: 162px;
+    height: 248px;
+top: 222px;
+left: 1228px;
+gap: 0px;
+border-radius: 20px ;
+opacity: 0px;
+background: #E8CBFF;
+}
+.INfoSectin2{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 50px 0 32px;
+}
+.INfoBox{
+    width: 344px;
+height: 328px;
+top: 356px;
+left: 318px;
+/* padding: 0px 4px 30px 0px; */
+gap: 16px;
+border-radius: 30px ;
+border: solid 1px #7362BC ;
+opacity: 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.INfoBox h3{
+    width: 90%;
+    text-align: left;
+margin: 28px 4px 0 28px;
+font-family: Circe Rounded;
+font-size: 24px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #323854;
+
+}
+.Lesons{
+    height: 56%;
+    overflow-y: scroll;
+margin: 0 4px 0 28px;
+    
+
+}
+::-webkit-scrollbar {
+    width: 4px;
+    margin-right: -20px;
+  }
+  ::-webkit-scrollbar-track {
+    
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #EEEEFF; 
+    border-radius: 10px;
+    
+  }
+.Lessondiv{
+    display: flex;
+    flex-direction: row;
+    width: 288px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px  #EEEEFF;
+}
+.Lessondiv p{
+    
+    font-family: Circe Rounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #323854;
+    
+}
+.Lessondiv div{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Circe Rounded;
+font-size: 20px;
+font-weight: 400;
+line-height: 25.54px;
+text-align: left;
+color: #323854;
+background-color: #EEEEFF;
+}
+.Button{
+    
+height: 40px;
+padding: 10px 40px 10px 40px;
+gap: 8px;
+border-radius: 30px ;
+opacity: 0px;
+background-color :rgba(222, 207, 255, 1);
+/* margin-right:  28px ; */
+border: none;
+
+
+font-family: Circe Rounded;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: center;
+
+}
+.widt288{ width: 288px;}
+.widt344{ width: 344px;
+}
+.InfoBox2{
+
+    width:100%;
+    height:328px;
+    top: 356px;
+    left: 682px;
+    /* padding: 28px 4px 30px 28px; */
+    gap: 16px;
+    border-radius: 30px ;
+    border: 1px  solid rgba(115, 98, 188, 1);
+    opacity: 0px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+ 
+}
+.InfoBox2 h2{
+    
+font-family: Circe Rounded;
+font-size: 24px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #323854;
+margin: 28px 0 0 28px;
+}
+.dayDiv{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.DAY{
+ 
+font-family: Circe Rounded;
+font-size: 32px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+color: #323854;
+}
+.Mounth{
+ 
+font-family: Circe Rounded;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.2px;
+text-align: left;
+color: #323854;
+}
+.InfoBox2 h4{
+    
+font-family: Circe Rounded;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: left;
+color: #323854;
+
+}
+.NEarestLessons{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid  rgba(238, 238, 255, 1);
+}
+.NEarestLessons div{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+.LessonTime{
+    color: #323854;
+font-family: Circe Rounded;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.2px;
+text-align: right;
+
+}
+.NEarestLessons img{
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+.TeacherName{
+    color: #323854;
+font-family: Circe Rounded;
+font-size: 12px;
+font-weight: 300;
+line-height: 12px;
+text-align: left;
+
+}
+.Button1{
+    width:56px;
+    height:32px;
+    padding: 8px 10px 8px 10px;
+    gap: 10px;
+    border-radius: 15px ;
+    border: 1px solid rgba(141, 127, 199, 1);
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+font-family: Circe Rounded;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.2px;
+color: #323854;
+
+}
+.Button2{
+    border: none;
+    width: 56px;
+height: 32px;
+padding: 8px 10px 8px 10px;
+gap: 10px;
+border-radius: 15px ;
+opacity: 0px;
+background: rgba(141, 127, 199, 1);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 4px;
+font-family: Circe Rounded;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.2px;
+}
+.BUttomDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+}

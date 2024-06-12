@@ -1,0 +1,93 @@
+@import url('https://fonts.cdnfonts.com/css/circe-rounded');
+.body{
+    width: 100%;
+    height: 100%;;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.logInform{
+
+width: 25%;
+height: 70%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.mainIcon{
+    width: 80px;
+}
+.Title{
+    font-family: Circe Rounded;
+font-size: 40px;
+font-weight: 400;
+line-height: 35px;
+text-align: left;
+color: #323854;
+margin-top: 32px;
+}
+.link{
+
+    font-family: Circe Rounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: center;
+    color: #008AFF;
+    }
+.linkDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.registerDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 9px;
+    margin-top: 64px;
+}
+.NoAk{
+font-family: Circe Rounded;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: center;
+color: #323854;
+}
+
+.languegeDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 8px
+    ;
+    
+    margin-top: 100px;
+}
+.ActiveLanguege{
+    font-family: Circe Rounded;
+font-size: 24px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+color: #7362BC;
+cursor: pointer;
+}
+.DeActiveLanguege{
+  
+    font-family: Circe Rounded;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #79747F;
+    cursor: pointer;
+}
+.Li{
+    text-decoration: none;
+}
